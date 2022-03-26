@@ -1,0 +1,6 @@
+name: Implicit Animations Workshop
+type: flutter
+steps:
+  - name: Welcome to the Implicit Animations Workshop
+    directory: intro
+    has_solution: false
