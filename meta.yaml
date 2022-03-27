@@ -7,3 +7,6 @@ steps:
   - name: Convert into a Stateful Widget
     directory: step_01
     has_solution: true
+  - name: Change the state
+    directory: step_02
+    has_solution: true
