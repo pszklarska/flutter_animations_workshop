@@ -10,3 +10,6 @@ steps:
   - name: Change the state
     directory: step_02
     has_solution: true
+  - name: Animate using AnimatedContainer
+    directory: step_03
+    has_solution: true
