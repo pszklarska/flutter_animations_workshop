@@ -10,6 +10,9 @@ steps:
   - name: Change the state
     directory: step_02
     has_solution: true
-  - name: Animate using AnimatedContainer
+  - name: Animate look using AnimatedContainer
     directory: step_03
+    has_solution: true
+  - name: Animate position using AnimatedAlign
+    directory: step_04
     has_solution: true
