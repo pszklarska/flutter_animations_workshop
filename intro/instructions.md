@@ -18,7 +18,7 @@ will take care of the rest!
 Using Implicit Animations is a perfect solution when you want simple animations
 that don't require a lot of customising.
 
-In this workshop you'll learn how to transform a simple `Container` into the
+In this workshop, you'll learn how to transform a simple `Container` into the
 animation using:
 
 - `AnimatedContainer`
@@ -29,7 +29,7 @@ animation using:
 ## Start
 
 We are going to start with a simple application that contains a blue Container
-in the center. Let's click the **Run** in the top right corner to see how it
+in the centre. Let's click the **Run** in the top right corner to see how it
 looks now.
 
 If you are ready, go to the next step!

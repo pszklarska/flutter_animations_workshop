@@ -5,7 +5,7 @@ are going to animate its position now, so it randomly moves around the screen.
 
 To do it, we will use another ImplicitlyAnimatedWidget: `AnimatedAlign`.
 
-The first step is to create new variables to store X and Y position of the 
+The first step is to create new variables to store X and Y positions of the 
 widget.
 
 ```dart
@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-Now, we can wrap `AnimatedContainer` in a `AnimatedAlign` widget. It 
+Now, we can wrap `AnimatedContainer` in an `AnimatedAlign` widget. It 
 requires two parameters - the _duration_ of the animation and _alignment_ 
 which is created using X and Y positions.  
 
