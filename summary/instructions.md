@@ -1,8 +1,7 @@
 # Summary
 
-This was the last step. If you followed this workshop, you should have an app 
-that implements basic animations for changing size, position, opacity and 
-rotating widgets.
+This was the last step. By now, you should have an app that implements basic 
+animations for changing size, position, opacity and rotating widgets.
 
 But... it's not the end! In this workshop we used just a few widgets from the 
 big list of all `ImplicitlyAnimatedWidgets`. Using the code from this 

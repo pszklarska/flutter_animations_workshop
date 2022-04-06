@@ -40,7 +40,6 @@ class _MyAppState extends State<MyApp> {
                 alignment: Alignment(_x, _y),
                 child: AnimatedContainer(
                   duration: const Duration(milliseconds: 500),
-                  curve: Curves.easeIn,
                   width: _width,
                   height: _height,
                   color: _color,
