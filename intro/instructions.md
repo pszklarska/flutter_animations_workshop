@@ -22,9 +22,9 @@ In this workshop, you'll learn how to transform a simple `Container` into the
 animation using:
 
 - `AnimatedContainer`
+- `AnimatedAlign`
 - `AnimatedOpacity`
 - `AnimatedRotation`
-- `AnimatedScale`
 
 ## Start
 

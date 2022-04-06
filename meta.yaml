@@ -16,3 +16,6 @@ steps:
   - name: Animate position using AnimatedAlign
     directory: step_04
     has_solution: true
+  - name: Animate opacity using AnimatedOpacity
+    directory: step_05
+    has_solution: true

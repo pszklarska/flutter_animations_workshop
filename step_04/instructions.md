@@ -53,3 +53,5 @@ floatingActionButton: FloatingActionButton(
 Note: X and Y values can be between -1.0 and 1.0. `Alignment(-1.0, -1.0)`
 represents the top left of the screen and `Alignment(1.0, 1.0)` represents 
 the bottom right of the screen.
+
+When you run the app now, the rectangle should move around the screen. 
