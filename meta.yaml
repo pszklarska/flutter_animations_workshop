@@ -22,3 +22,6 @@ steps:
   - name: Animate rotation using AnimatedRotation
     directory: step_06
     has_solution: true
+  - name: Summary
+    directory: summary
+    has_solution: false
