@@ -19,3 +19,6 @@ steps:
   - name: Animate opacity using AnimatedOpacity
     directory: step_05
     has_solution: true
+  - name: Animate rotation using AnimatedRotation
+    directory: step_06
+    has_solution: true
