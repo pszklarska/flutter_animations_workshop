@@ -20,5 +20,7 @@ child: AnimatedContainer(
 ),
 ```
 
-Now, when you run the app you can see that the Container's animation starts 
-slowly, speeds up and ends quickly.  
+Now, when you run the app, and have a very good eye, you can see that the 
+Container's animation starts slowly, speeds up and ends quickly.
+
+Feel free to check out other curves for different animation effects!
