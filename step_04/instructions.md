@@ -17,9 +17,14 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-Now, we can wrap `AnimatedContainer` in an `AnimatedAlign` widget. It 
-requires two parameters - the _duration_ of the animation and _alignment_ 
-which is created using X and Y positions.  
+Now, we can wrap `AnimatedContainer` with an `AnimatedAlign` widget (line #28).
+
+> 💡 Pro-tip: You can click on the AnimatedContainer, and use Alt+Enter 
+> (Windows/Linux) or Option+Return (Mac) and select "Wrap with widget..."  
+> option.  
+
+`AnimatedAlign` requires two parameters - the _duration_ of the animation and 
+_alignment_ which is created using X and Y positions.  
 
 ```dart
 child: AnimatedAlign(
