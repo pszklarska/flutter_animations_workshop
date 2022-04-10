@@ -54,4 +54,6 @@ home: Scaffold(
 
 Now, when you run the app, you should see a FloatingActionButton in the 
 bottom right corner. Each time you tap on it, a new random rectangle is 
-shown.   
+shown.
+
+![Change the state](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen01.gif?raw=true)

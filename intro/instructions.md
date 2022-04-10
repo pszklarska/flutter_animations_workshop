@@ -18,8 +18,12 @@ will take care of the rest!
 Using Implicit Animations is a perfect solution when you want simple animations
 that don't require a lot of customising.
 
-In this workshop, you'll learn how to transform a simple `Container` into the
-animation using:
+In this workshop, you'll learn how to transform a simple `Container` into 
+this nice animation:
+
+![Final effect](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen05.gif?raw=true)
+
+You'll create that animation using the following widgets:
 
 - `AnimatedContainer`
 - `AnimatedAlign`

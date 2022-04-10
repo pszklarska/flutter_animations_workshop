@@ -45,3 +45,5 @@ floatingActionButton: FloatingActionButton(
 
 After you implement those steps and run the app, you can see the little box 
 changing its opacity!
+
+![Using AnimatedOpacity](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen04.gif?raw=true)

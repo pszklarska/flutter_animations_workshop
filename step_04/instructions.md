@@ -55,3 +55,5 @@ represents the top left of the screen and `Alignment(1.0, 1.0)` represents
 the bottom right of the screen.
 
 When you run the app now, the rectangle should move around the screen. 
+
+![Using AnimatedAlign](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen03.gif?raw=true)
