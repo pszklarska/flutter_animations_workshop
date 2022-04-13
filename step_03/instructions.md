@@ -4,7 +4,7 @@ Now is the time to finally create some animations!
 
 As the widget already changes its state, all that is left is to replace 
 `Container` with an `AnimatedContainer` and add a `Duration` of the 
-animation (line #28)
+animation (line #30)
 
 ```dart
 

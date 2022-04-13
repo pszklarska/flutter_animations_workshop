@@ -4,7 +4,7 @@ The next step is to use `StatefulWidget` and the `setState()` method to
 change the Container's size and color.
 
 Firstly, create a new variables for the _height_, _width_ and _color_ of the 
-Container. You should place them in the `_MyAppState` class: (line #15)
+Container. You should place them in the `_MyAppState` class: (line #17)
 
 ```dart
 class _MyAppState extends State<MyApp> {
@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
 ```
 
 Those values are going to be modified when you tap on the button. As the next 
-step, use them as the properties for the `Container` widget:
+step, use them as the properties for the `Container` widget (line #27)
 ```dart
 child: Container(
   width: _width,
@@ -27,7 +27,7 @@ child: Container(
 ```
 
 The last thing to do is to actually change the values when we tap on the 
-button. To do it, add a `FloatingActionButton` to the `Scaffold` (line #31)
+button. To do it, add a `FloatingActionButton` to the `Scaffold` (line #33)
 
 ```dart
 home: Scaffold(
@@ -41,14 +41,27 @@ home: Scaffold(
 ),
 ```
 
-And when `onPressed()` is invoked, call `setState()` to change a state of 
-the widget and assign a new random values to the _width_, _height_ and 
-_color_ variables.
+Now, you'll need to use Random() class to generate random values every time 
+a button is pressed.
+
+Add `'dart:math'` import at the top of the file (line #1) and create a new
+instance of a `Random` class (line #16)
+
+```dart
+class _MyAppState extends State<MyApp> {
+  final random = Random();
+  ...
+}
+```
+
+Now you can use `Random` to generate new values when `onPressed()` is 
+invoked. Inside `onPressed()` call `setState()` to change a state of the 
+widget and assign a new random values to the `_width`, `_height` and 
+`_color` variables.
 
 ```dart
 onPressed: () {
   setState(() {
-    final random = Random();
     _width = random.nextInt(200).toDouble();
     _height = random.nextInt(200).toDouble();
     _color = Colors.primaries[random.nextInt(Colors.primaries.length)];
@@ -56,8 +69,8 @@ onPressed: () {
 },
 ```
 
-Now, when you run the app, you should see a FloatingActionButton in the 
-bottom right corner. Each time you tap on it, a new random rectangle is 
-shown.
+After those changes, when you run the app you should see a 
+FloatingActionButton in the bottom right corner. Each time you tap on it, a 
+new random rectangle is shown.
 
 ![Change the state](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen01.gif?raw=true)

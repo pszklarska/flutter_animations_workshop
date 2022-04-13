@@ -1,3 +1,4 @@
+// TODO(3): Add 'dart:math' import
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,6 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  // TODO(3): Create new Random instance
   // TODO(1): Add _width, _height, _color
 
   @override
@@ -28,7 +30,7 @@ class _MyAppState extends State<MyApp> {
             color: Colors.blue,
           ),
         ),
-        // TODO(3): Add FloatingActionButton
+        // TODO(4): Add FloatingActionButton
       ),
     );
   }
