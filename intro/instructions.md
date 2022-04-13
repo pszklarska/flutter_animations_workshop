@@ -25,10 +25,10 @@ this nice animation:
 
 You'll create that animation using the following widgets:
 
-- `AnimatedContainer`
-- `AnimatedAlign`
-- `AnimatedOpacity`
-- `AnimatedRotation`
+- [AnimatedContainer](https://api.flutter.dev/flutter/widgets/AnimatedContainer-class.html)
+- [AnimatedAlign](https://api.flutter.dev/flutter/widgets/AnimatedAlign-class.html)
+- [AnimatedOpacity](https://api.flutter.dev/flutter/widgets/AnimatedOpacity-class.html)
+- [AnimatedRotation](https://api.flutter.dev/flutter/widgets/AnimatedRotation-class.html)
 
 ## Start
 

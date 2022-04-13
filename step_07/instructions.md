@@ -11,6 +11,9 @@ You can see a collection of all common curves with the examples in the
 Flutter documentation for 
 [Curves](https://api.flutter.dev/flutter/animation/Curves-class.html) class.
 
+And for the guidelines about when to use them, see this [MaterialDesign](https://material.io/archive/guidelines/motion/duration-easing.html#duration-easing-common-durations) 
+documentation.
+
 Let's change a curve for the `AnimatedContainer` widget (line #48)
 
 ```dart
