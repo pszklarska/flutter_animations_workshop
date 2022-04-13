@@ -1,9 +1,9 @@
 # Customising animations
 
 The main benefit of implicit animations is the simplicity of the usage. But 
-just because it's simple, it doesn't mean we can't customise it!
+just because it's simple, it doesn't mean you can't customise it!
 
-With any `ImplicitlyAnimatedWidget` we can change the `Curve` of the 
+With any `ImplicitlyAnimatedWidget` you can change the `Curve` of the 
 animation. By default, all animations are linear (it means the rate of an 
 animation is the same for the whole duration).
 

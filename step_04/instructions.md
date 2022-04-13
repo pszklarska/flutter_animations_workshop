@@ -1,9 +1,9 @@
 # Animate position using AnimatedAlign
 
-Now, the same way as we animated the size and the color of a rectangle, we 
-are going to animate its position now, so it randomly moves around the screen. 
+Now, the same way as you animated the size and the color of a rectangle, you're 
+going to animate its position now, so it randomly moves around the screen. 
 
-To do it, we will use another ImplicitlyAnimatedWidget: `AnimatedAlign`.
+To do it, you'll use another ImplicitlyAnimatedWidget: `AnimatedAlign`.
 
 The first step is to create new variables to store X and Y positions of the 
 widget.
@@ -17,14 +17,14 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-Now, we can wrap `AnimatedContainer` with an `AnimatedAlign` widget (line #28).
+Now wrap `AnimatedContainer` with an `AnimatedAlign` widget (line #28).
 
 > 💡 Pro-tip: You can click on the AnimatedContainer, and use Alt+Enter 
 > (Windows/Linux) or Option+Return (Mac) and select "Wrap with widget..."  
 > option.  
 
 `AnimatedAlign` requires two parameters - the _duration_ of the animation and 
-_alignment_ which is created using X and Y positions.  
+_alignment_. `Alignment()` is created using X and Y positions.  
 
 ```dart
 child: AnimatedAlign(
@@ -39,7 +39,8 @@ child: AnimatedAlign(
 ),
 ```
 
-The last step is to set the new values when the FloatingActionButton is tapped.
+In the last step, generate random values and assign them to `_x` and `_y` 
+when the FloatingActionButton is pressed.
 
 ```dart
 floatingActionButton: FloatingActionButton(
@@ -55,7 +56,7 @@ floatingActionButton: FloatingActionButton(
 ),
 ```
 
-Note: X and Y values can be between -1.0 and 1.0. `Alignment(-1.0, -1.0)`
+Note: X and Y values range from -1.0 to 1.0. `Alignment(-1.0, -1.0)` 
 represents the top left of the screen and `Alignment(1.0, 1.0)` represents 
 the bottom right of the screen.
 

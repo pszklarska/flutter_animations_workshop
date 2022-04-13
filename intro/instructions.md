@@ -32,8 +32,8 @@ You'll create that animation using the following widgets:
 
 ## Start
 
-We are going to start with a simple application that contains a blue Container
-in the centre. Let's click the **Run** in the top right corner to see how it
+You're going to start with a simple application that contains a blue 
+Container in the centre. Let's click the **Run** in the top right corner to see how it
 looks now.
 
 If you are ready, go to the next step!

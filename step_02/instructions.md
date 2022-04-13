@@ -3,9 +3,8 @@
 The next step is to use `StatefulWidget` and the `setState()` method to 
 change the Container's size and color.
 
-First, we have to create a new variables for the _height_, _width_ 
-and _color_ of the Container. We should place them in the `_MyAppState` 
-class: (line #14)
+Firstly, create a new variables for the _height_, _width_ and _color_ of the 
+Container. You should place them in the `_MyAppState` class: (line #14)
 
 ```dart
 class _MyAppState extends State<MyApp> {
@@ -17,9 +16,8 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-Those values are going to be modified when we tap on the button. The next 
-step is to let `Container` widget use them as the properties instead of the 
-static values:
+Those values are going to be modified when you tap on the button. As the next 
+step, use them as the properties for the `Container` widget:
 ```dart
 child: Container(
   width: _width,
@@ -29,8 +27,7 @@ child: Container(
 ```
 
 The last thing to do is to actually change the values when we tap on the 
-button. To do it, we will add a `FloatingActionButton` to the `Scaffold` 
-(line #28)
+button. To do it, add a `FloatingActionButton` to the `Scaffold` (line #28)
 
 ```dart
 home: Scaffold(
@@ -44,9 +41,9 @@ home: Scaffold(
 ),
 ```
 
-And when `onPressed()` is invoked, we will call `setState()` to change a 
-state of the widget and assign a new random values to the _width_, _height_ 
-and _color_ variables.
+And when `onPressed()` is invoked, call `setState()` to change a state of 
+the widget and assign a new random values to the _width_, _height_ and 
+_color_ variables.
 
 ```dart
 onPressed: () {
