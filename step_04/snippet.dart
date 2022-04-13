@@ -40,8 +40,8 @@ class _MyAppState extends State<MyApp> {
           child: const Icon(Icons.play_arrow),
           onPressed: () {
             setState(() {
-              _width = random.nextInt(200).toDouble();
-              _height = random.nextInt(200).toDouble();
+              _width = 25.0 + random.nextInt(200).toDouble();
+              _height = 25.0 + random.nextInt(200).toDouble();
               _color = Colors.primaries[random.nextInt(Colors.primaries.length)];
               // TODO(3): Assign new random values to _x and _y
             });
