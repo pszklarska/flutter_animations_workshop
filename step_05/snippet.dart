@@ -19,6 +19,7 @@ class _MyAppState extends State<MyApp> {
   Color _color = Colors.blue;
   double _x = 0.0;
   double _y = 0.0;
+  // TODO(1): Add _opacity
 
   @override
   Widget build(BuildContext context) {
@@ -27,6 +28,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(title: const Text('Implicit Animations Demo')),
         body: Center(
+          // TODO(2): Wrap AnimatedAlign with AnimatedOpacity
           child: AnimatedAlign(
             duration: const Duration(milliseconds: 500),
             alignment: Alignment(_x, _y),
@@ -48,6 +50,7 @@ class _MyAppState extends State<MyApp> {
               _color = Colors.primaries[random.nextInt(Colors.primaries.length)];
               _x = -1.0 + random.nextDouble() * 2.0;
               _y = -1.0 + random.nextDouble() * 2.0;
+              // TODO(3): Assign new random value to _opacity
             });
           },
         ),

@@ -12,6 +12,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  // TODO(1): Add _width, _height, _color
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,11 +22,13 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(title: const Text('Implicit Animations Demo')),
         body: Center(
           child: Container(
+            // TODO(2): Replace values with variables
             width: 50.0,
             height: 50.0,
             color: Colors.blue,
           ),
         ),
+        // TODO(3): Add FloatingActionButton
       ),
     );
   }

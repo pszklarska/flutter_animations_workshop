@@ -25,6 +25,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(title: const Text('Implicit Animations Demo')),
         body: Center(
+          // TODO: Replace Container with AnimatedContainer
           child: Container(
             width: _width,
             height: _height,

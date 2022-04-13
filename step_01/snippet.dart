@@ -4,6 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
+// TODO: Convert MyApp to StatefulWidget
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 

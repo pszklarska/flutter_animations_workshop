@@ -4,7 +4,7 @@ The next step is to use `StatefulWidget` and the `setState()` method to
 change the Container's size and color.
 
 Firstly, create a new variables for the _height_, _width_ and _color_ of the 
-Container. You should place them in the `_MyAppState` class: (line #14)
+Container. You should place them in the `_MyAppState` class: (line #15)
 
 ```dart
 class _MyAppState extends State<MyApp> {
@@ -27,7 +27,7 @@ child: Container(
 ```
 
 The last thing to do is to actually change the values when we tap on the 
-button. To do it, add a `FloatingActionButton` to the `Scaffold` (line #28)
+button. To do it, add a `FloatingActionButton` to the `Scaffold` (line #31)
 
 ```dart
 home: Scaffold(

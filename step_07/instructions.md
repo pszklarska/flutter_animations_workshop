@@ -11,7 +11,7 @@ You can see a collection of all common curves with the examples in the
 Flutter documentation for 
 [Curves](https://api.flutter.dev/flutter/animation/Curves-class.html) class.
 
-Let's change a curve for the `AnimatedContainer` widget:
+Let's change a curve for the `AnimatedContainer` widget (line #46)
 
 ```dart
 child: AnimatedContainer(

@@ -20,6 +20,7 @@ class _MyAppState extends State<MyApp> {
   double _x = 0.0;
   double _y = 0.0;
   double _opacity = 1.0;
+  // TODO(1): Add _turns
 
   @override
   Widget build(BuildContext context) {
@@ -28,6 +29,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(title: const Text('Implicit Animations Demo')),
         body: Center(
+          // TODO(2): Wrap AnimatedOpacity with AnimatedRotation
           child: AnimatedOpacity(
             duration: const Duration(milliseconds: 500),
             opacity: _opacity,
@@ -54,6 +56,7 @@ class _MyAppState extends State<MyApp> {
               _x = -1.0 + random.nextDouble() * 2.0;
               _y = -1.0 + random.nextDouble() * 2.0;
               _opacity = random.nextDouble();
+              // TODO(3): Assign new value to _turns
             });
           },
         ),

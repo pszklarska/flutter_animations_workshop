@@ -17,6 +17,7 @@ class _MyAppState extends State<MyApp> {
   double _width = 50.0;
   double _height = 50.0;
   Color _color = Colors.blue;
+  // TODO(1): Add _x, _y
 
   @override
   Widget build(BuildContext context) {
@@ -25,6 +26,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(title: const Text('Implicit Animations Demo')),
         body: Center(
+          // TODO(2): Wrap AnimatedContainer with AnimatedAlign
           child: AnimatedContainer(
             duration: const Duration(milliseconds: 500),
             width: _width,
@@ -40,6 +42,7 @@ class _MyAppState extends State<MyApp> {
               _width = random.nextInt(200).toDouble();
               _height = random.nextInt(200).toDouble();
               _color = Colors.primaries[random.nextInt(Colors.primaries.length)];
+              // TODO(3): Assign new random values to _x and _y
             });
           },
         ),

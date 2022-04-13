@@ -43,6 +43,7 @@ class _MyAppState extends State<MyApp> {
                   width: _width,
                   height: _height,
                   color: _color,
+                  // TODO: Add curve
                 ),
               ),
             ),
