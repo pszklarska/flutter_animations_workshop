@@ -56,4 +56,8 @@ the bottom right of the screen.
 
 When you run the app now, the rectangle should move around the screen. 
 
+<details>
+  <summary>Click to see the result!</summary>
+
 ![Using AnimatedAlign](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen03.gif?raw=true)
+</details>

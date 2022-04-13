@@ -43,4 +43,8 @@ That's all! After this step you'll see a final result of this workshop. Your
 `Container` should change size, color, opacity and rotate with every button 
 tap. And all that with a nice animation!
 
+<details>
+  <summary>Click to see the result!</summary>
+
 ![Using AnimatedRotation](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen05.gif?raw=true)
+</details>

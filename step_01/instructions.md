@@ -16,4 +16,8 @@ and choose "Convert to StatefulWidget".
 When you run the app now, you shouldn't see any difference. But your widget is
 now prepared for changing a state!
 
+<details>
+  <summary>Click to see the result!</summary>
+
 ![Initial state - blue container](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen00.png?raw=true)
+</details>

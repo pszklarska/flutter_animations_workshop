@@ -3,7 +3,11 @@
 This was the last step. By now, you should have an app that implements basic 
 animations for changing size, position, opacity and rotating widgets.
 
+<details>
+  <summary>Click to see the final result!</summary>
+
 ![Final effect](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen05.gif?raw=true)
+</details>
 
 But... it's not the end! In this workshop you used just a few widgets from the 
 big list of all `ImplicitlyAnimatedWidgets`. Using the code from this 

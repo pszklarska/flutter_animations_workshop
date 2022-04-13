@@ -20,4 +20,8 @@ child: AnimatedContainer(
 And voilà! Now, when you run the app and tap on the button, the rectangle's 
 size and color should change with a smooth animation. 
 
+<details>
+  <summary>Click to see the result!</summary>
+
 ![Using AnimatedContainer](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen02.gif?raw=true)
+</details>
