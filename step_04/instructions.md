@@ -6,7 +6,7 @@ going to animate its position now, so it randomly moves around the screen.
 To do it, you'll use another ImplicitlyAnimatedWidget: `AnimatedAlign`.
 
 The first step is to create new variables to store X and Y positions of the 
-widget (line #22)
+widget (line #23)
 
 ```dart
 class _MyAppState extends State<MyApp> {
@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-Now wrap `AnimatedContainer` with an `AnimatedAlign` widget (line #31).
+Now wrap `AnimatedContainer` with an `AnimatedAlign` widget (line #32).
 
 > 💡 Pro-tip: You can click on the AnimatedContainer, and use Alt+Enter 
 > (Windows/Linux) or Option+Return (Mac) and select "Wrap with widget..."  
@@ -28,10 +28,10 @@ _alignment_. `Alignment()` is created using X and Y positions.
 
 ```dart
 child: AnimatedAlign(
-  duration: const Duration(milliseconds: 500),
+  duration: _duration,
   alignment: Alignment(_x, _y),
   child: AnimatedContainer(
-    duration: const Duration(milliseconds: 500),
+    duration: _duration,
     width: _width,
     height: _height,
     color: _color,
@@ -40,13 +40,13 @@ child: AnimatedAlign(
 ```
 
 In the last step, generate random values and assign them to `_x` and `_y` 
-when the FloatingActionButton is pressed (line #46)
+when the FloatingActionButton is pressed (line #47)
 
 ```dart
 setState(() {
   ...
-  _x = -1.0 + random.nextDouble() * 2.0;
-  _y = -1.0 + random.nextDouble() * 2.0;
+  _x = -1.0 + _random.nextDouble() * 2.0;
+  _y = -1.0 + _random.nextDouble() * 2.0;
 });
 ```
 

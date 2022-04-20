@@ -2,14 +2,21 @@
 
 Now is the time to finally create some animations!
 
-As the widget already changes its state, all that is left is to replace 
-`Container` with an `AnimatedContainer` and add a `Duration` of the 
-animation (line #30)
+The widget already changes its state, so now the last step is to replace 
+`Container` with an `AnimatedContainer`. 
+
+First, create a new `Duration` instance at the top of the class (line #18)
+
+```dart
+final _duration = const Duration(milliseconds: 500);
+```
+
+And replace `Container` with an `AnimatedContainer` (line #31)
 
 ```dart
 
 child: AnimatedContainer(
-  duration: const Duration(milliseconds: 500),
+  duration: _duration,
   width: _width,
   height: _height,
   color: _color,

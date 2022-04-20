@@ -4,7 +4,7 @@ The last step and the last widget that you're going to use is
 `AnimatedRotation`. That widget allows animating rotation of a widget.
 
 First, create a new variable `_turn` for keeping the number of turns of a 
-widget (line #25), each one is a 360-degree turn.
+widget (line #26), each one is a 360-degree turn.
 
 ```dart
 class _MyAppState extends State<MyApp> {
@@ -15,12 +15,12 @@ class _MyAppState extends State<MyApp> {
 ```
 
 In the second step, use `AnimatedRotation` with the `duration` and 
-`turns` parameters (line #34)
+`turns` parameters (line #35)
 
 
 ```dart
 child: AnimatedRotation(
-  duration: const Duration(milliseconds: 500),
+  duration: _duration,
   turns: _turns,
   child: AnimatedOpacity(
     ...
@@ -30,7 +30,7 @@ child: AnimatedRotation(
 
 And finally, each time a button is pressed, a quarter of a turn is added to 
 the `_turn` variable, making the widget spin. In button's `onPressed()` 
-method, assign a new value to the `_turns` variable (line #60)
+method, assign a new value to the `_turns` variable (line #61)
 
 ```dart
 setState(() {

@@ -14,7 +14,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final random = Random();
+  final _random = Random();
+  final _duration = const Duration(milliseconds: 500);
 
   double _width = 50.0;
   double _height = 50.0;
@@ -28,7 +29,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(title: const Text('Implicit Animations Demo')),
         body: Center(
           child: AnimatedContainer(
-            duration: const Duration(milliseconds: 500),
+            duration: _duration,
             width: _width,
             height: _height,
             color: _color,
@@ -38,9 +39,9 @@ class _MyAppState extends State<MyApp> {
           child: const Icon(Icons.play_arrow),
           onPressed: () {
             setState(() {
-              _width = 25.0 + random.nextInt(200).toDouble();
-              _height = 25.0 + random.nextInt(200).toDouble();
-              _color = Colors.primaries[random.nextInt(Colors.primaries.length)];
+              _width = 25.0 + _random.nextInt(200).toDouble();
+              _height = 25.0 + _random.nextInt(200).toDouble();
+              _color = Colors.primaries[_random.nextInt(Colors.primaries.length)];
             });
           },
         ),

@@ -14,7 +14,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final random = Random();
+  final _random = Random();
 
   double _width = 50.0;
   double _height = 50.0;
@@ -37,9 +37,9 @@ class _MyAppState extends State<MyApp> {
           child: const Icon(Icons.play_arrow),
           onPressed: () {
             setState(() {
-              _width = 25.0 + random.nextInt(200).toDouble();
-              _height = 25.0 + random.nextInt(200).toDouble();
-              _color = Colors.primaries[random.nextInt(Colors.primaries.length)];
+              _width = 25.0 + _random.nextInt(200).toDouble();
+              _height = 25.0 + _random.nextInt(200).toDouble();
+              _color = Colors.primaries[_random.nextInt(Colors.primaries.length)];
             });
           },
         ),

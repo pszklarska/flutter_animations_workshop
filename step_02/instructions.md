@@ -49,7 +49,7 @@ instance of a `Random` class (line #16)
 
 ```dart
 class _MyAppState extends State<MyApp> {
-  final random = Random();
+  final _random = Random();
   ...
 }
 ```
@@ -62,9 +62,9 @@ widget and assign a new random values to the `_width`, `_height` and
 ```dart
 onPressed: () {
   setState(() {
-    _width = 25.0 + random.nextInt(200).toDouble();
-    _height = 25.0 + random.nextInt(200).toDouble();
-    _color = Colors.primaries[random.nextInt(Colors.primaries.length)];
+    _width = 25.0 + _random.nextInt(200).toDouble();
+    _height = 25.0 + _random.nextInt(200).toDouble();
+    _color = Colors.primaries[_random.nextInt(Colors.primaries.length)];
   });
 },
 ```
