@@ -4,9 +4,16 @@ Animations are an important part of every application’s look and feel. Creatin
 them, however, can be very often overwhelming.
 
 Luckily, Flutter offers a collection of widgets that allow to animate properties
-of the most common widgets, such as Container, Padding, Opacity. In this
-workshop, you're going to learn how to modify your existing widgets to convert
-them into animated widgets using Implicit Animations.
+of the most common widgets, such as Container, Padding, Opacity.
+
+In this workshop you're going to learn how to modify your existing widgets to
+convert them into animated widgets using Implicit Animations.
+
+### Author
+
+This workshop is authored by Paulina Szklarska ([@p_szklarska](https://twitter.com/p_szklarska)), feel free to reach out!
+
+If you have any questions or comments about this workshop, please [file an issue](https://github.com/pszklarska/flutter_animations_workshop/issues/new).
 
 ## Implicit Animations
 
@@ -16,10 +23,12 @@ calculations, all you have to do is use `setState()` on your widget and Flutter
 will take care of the rest!
 
 Using Implicit Animations is a perfect solution when you want simple animations
-that don't require a lot of customising.
+that don't require a lot of customising. You can also compose smaller Implicitly
+Animated Widgets to build more complex animations.
 
-In this workshop, you'll learn how to transform a simple `Container` into 
-the nice animation.
+### Goals
+In this workshop, you'll learn how to transform a simple `Container` into the
+nice animation.
 
 <details>
   <summary>Click to see the final animation!</summary>
@@ -36,8 +45,8 @@ You'll create that animation using the following widgets:
 
 ## Start
 
-You're going to start with a simple application that contains a blue 
-Container in the centre. Let's click the **Run** in the top right corner to see how it
+You're going to start with a simple application that contains a blue Container
+in the centre. Let's click the **Run** in the top right corner to see how it
 looks now.
 
 If you are ready, go to the next step!
