@@ -28,3 +28,5 @@ For animating changes in widget's size:
 
 For animating text changes:
 - [AnimatedDefaultTextStyle](https://api.flutter.dev/flutter/widgets/AnimatedDefaultTextStyle-class.html)
+
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=555&t=pageview&ec=repo&ea=open&dp=flutter_animations_workshop/summary&dt=flutter_animations_workshop/summary&tid=UA-226900214-1" style="width: 1px; height: 1px"/>

@@ -50,3 +50,5 @@ in the centre. Let's click the **Run** in the top right corner to see how it
 looks now.
 
 If you are ready, go to the next step!
+
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=555&t=pageview&ec=repo&ea=open&dp=flutter_animations_workshop/intro&dt=flutter_animations_workshop/intro&tid=UA-226900214-1" style="width: 1px; height: 1px"/>

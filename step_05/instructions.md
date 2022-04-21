@@ -46,3 +46,5 @@ changing its opacity!
 
 ![Using AnimatedOpacity](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen04.gif?raw=true)
 </details>
+
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=555&t=pageview&ec=repo&ea=open&dp=flutter_animations_workshop/step-05&dt=flutter_animations_workshop/step-05&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
