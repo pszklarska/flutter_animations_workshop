@@ -1,10 +1,9 @@
 # Introduction
 
 Animations are an important part of every application’s look and feel. Creating
-them, however, can be very often overwhelming.
-
-Luckily, Flutter offers a collection of widgets that allow to animate properties
-of the most common widgets, such as Container, Padding, Opacity.
+them, however, can be very often overwhelming. Luckily, Flutter offers a
+collection of widgets that allow to animate properties of the most common
+widgets, such as Container, Padding, Opacity.
 
 In this workshop you're going to learn how to modify your existing widgets to
 convert them into animated widgets using Implicit Animations.
@@ -26,7 +25,7 @@ Using Implicit Animations is a perfect solution when you want simple animations
 that don't require a lot of customising. You can also compose smaller Implicitly
 Animated Widgets to build more complex animations.
 
-### Goals
+## Goals
 In this workshop, you'll learn how to transform a simple `Container` into the
 nice animation.
 
@@ -45,6 +44,7 @@ You'll create that animation using the following widgets:
 
 ## Start
 
+<!-- I love how simple the starting app is! Great starting point for beginners. -->
 You're going to start with a simple application that contains a blue Container
 in the centre. Let's click the **Run** in the top right corner to see how it
 looks now.

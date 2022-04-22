@@ -6,10 +6,12 @@ The last step and the last widget that you're going to use is
 First, create a new variable `_turn` for keeping the number of turns of a 
 widget (line #26), each one is a 360-degree turn.
 
+<!-- Could you describe a bit more how turns work? Does the number 0 represent 0 degrees of turn, and 360.0 represent a full turn? Why are you adding 0.25 to the turn variable? -->
+
 ```dart
 class _MyAppState extends State<MyApp> {
   ...
-  double _turn = 0.0;
+  double _turns = 0.0;
   ...
 }
 ```

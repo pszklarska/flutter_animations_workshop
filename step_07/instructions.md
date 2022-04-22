@@ -1,5 +1,7 @@
 # Customising animations
 
+<!-- I was wondering if you were going to discuss Curves. You're one step 
+ahead of me! Very important topic, glad to see it covered :) -->
 The main benefit of implicit animations is the simplicity of the usage. But 
 just because it's simple, it doesn't mean you can't customise it!
 

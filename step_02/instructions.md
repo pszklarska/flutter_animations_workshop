@@ -73,6 +73,7 @@ After those changes, when you run the app you should see a
 FloatingActionButton in the bottom right corner. Each time you tap on it, a 
 new random rectangle is shown.
 
+<!-- this is a great way to verify that the workshop taker has completed the step successfully without needing to toggle the solution and losing their code! Great idea. -->
 <details>
   <summary>Click to see the result!</summary>
 

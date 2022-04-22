@@ -1,12 +1,12 @@
 # Animate position using AnimatedAlign
 
 Now, the same way as you animated the size and the color of a rectangle, you're 
-going to animate its position now, so it randomly moves around the screen. 
+going to animate its position so it randomly moves around the screen. 
 
-To do it, you'll use another ImplicitlyAnimatedWidget: `AnimatedAlign`.
+To do so, you'll use another implicitly animated widget: `AnimatedAlign`.
 
 The first step is to create new variables to store X and Y positions of the 
-widget (line #23)
+widget (line #23).
 
 ```dart
 class _MyAppState extends State<MyApp> {
@@ -23,8 +23,9 @@ Now wrap `AnimatedContainer` with an `AnimatedAlign` widget (line #32).
 > (Windows/Linux) or Option+Return (Mac) and select "Wrap with widget..."  
 > option.  
 
-`AnimatedAlign` requires two parameters - the _duration_ of the animation and 
-_alignment_. `Alignment()` is created using X and Y positions.  
+`AnimatedAlign` requires two parameters - the _duration_ of the animation and
+_alignment_. `Alignment()` is created using X and Y positions, which range from
+-1.0 to 1.0.
 
 ```dart
 child: AnimatedAlign(
@@ -50,6 +51,7 @@ setState(() {
 });
 ```
 
+<!-- I kinda think this info should be closer to the top, so folks know what data AnimatedAlign needs -->
 Note: X and Y values range from -1.0 to 1.0. `Alignment(-1.0, -1.0)` 
 represents the top left of the screen and `Alignment(1.0, 1.0)` represents 
 the bottom right of the screen.

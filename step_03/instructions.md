@@ -1,10 +1,15 @@
-# Animate look using AnimatedContainer
+# Animate the box using AnimatedContainer
 
 Now is the time to finally create some animations!
 
 The widget already changes its state, so now the last step is to replace 
 `Container` with an `AnimatedContainer`. 
 
+<!-- Not to be picky, but would it make sense to make the duration configurable 
+via the MyApp constructor, with a default duration? Then, the _MyAppState class
+ would use widget.duration? That might be a nice way to show folks how to make
+  configuration durations? Dunno, random thought :) Ignore if it's too 
+  distracting from the goal! -->
 First, create a new `Duration` instance at the top of the class (line #18)
 
 ```dart

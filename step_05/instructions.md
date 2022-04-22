@@ -9,6 +9,7 @@ variable `_opacity` (line #25)
 ```dart
 class _MyAppState extends State<MyApp> {
   ...
+  // Maybe default value could be 0.5 or 1.0 like the solution? Otherwise, the initial box is invisible.
   double _opacity = 0.0;
   ...
 }
