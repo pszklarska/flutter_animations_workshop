@@ -51,4 +51,4 @@ looks now.
 
 If you are ready, go to the next step!
 
-<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=555&t=pageview&ec=repo&ea=open&dp=flutter_animations_workshop/intro&dt=flutter_animations_workshop/intro&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/intro/instructions.md&dt=/intro&tid=UA-226900214-1" style="width: 1px; height: 1px"/>

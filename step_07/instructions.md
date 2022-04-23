@@ -28,4 +28,4 @@ Container's animation starts slowly, speeds up and ends quickly.
 
 Feel free to check out other curves for different animation effects!
 
-<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=555&t=pageview&ec=repo&ea=open&dp=flutter_animations_workshop/step-07&dt=flutter_animations_workshop/step-07&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/step_07/instructions.md&dt=/step-07&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
