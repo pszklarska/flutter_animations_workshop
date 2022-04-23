@@ -33,4 +33,4 @@ size and color should change with a smooth animation.
 ![Using AnimatedContainer](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen02.gif?raw=true)
 </details>
 
-<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/step_03/instructions.md&dt=/step-03&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/step_03/instructions.md&dt=/step-03&tid=UA-226934227-1" style="width: 1px; height: 1px"/>

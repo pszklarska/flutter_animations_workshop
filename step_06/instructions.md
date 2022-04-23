@@ -49,4 +49,4 @@ tap. And all that with a nice animation!
 ![Using AnimatedRotation](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen05.gif?raw=true)
 </details>
 
-<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/step_06/instructions.md&dt=/step-06&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/step_06/instructions.md&dt=/step-06&tid=UA-226934227-1" style="width: 1px; height: 1px"/>

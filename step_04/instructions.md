@@ -62,4 +62,4 @@ When you run the app now, the rectangle should move around the screen.
 ![Using AnimatedAlign](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen03.gif?raw=true)
 </details>
 
-<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/step_04/instructions.md&dt=/step-04&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/step_04/instructions.md&dt=/step-04&tid=UA-226934227-1" style="width: 1px; height: 1px"/>
