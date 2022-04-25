@@ -27,6 +27,9 @@ Now wrap `AnimatedContainer` with an `AnimatedAlign` widget (line #32).
 _alignment_. `Alignment()` is created using X and Y positions, which range from
 -1.0 to 1.0.
 
+`Alignment(-1.0, -1.0)` represents the top left of the screen and 
+`Alignment(1.0, 1.0)` represents the bottom right of the screen.
+
 ```dart
 child: AnimatedAlign(
   duration: _duration,
@@ -40,8 +43,8 @@ child: AnimatedAlign(
 ),
 ```
 
-In the last step, generate random values and assign them to `_x` and `_y` 
-when the FloatingActionButton is pressed (line #47)
+In the last step, generate random values ranging from -1.0 to 1.0 and assign 
+them to `_x` and `_y` when the FloatingActionButton is pressed (line #47)
 
 ```dart
 setState(() {
@@ -51,11 +54,6 @@ setState(() {
 });
 ```
 
-<!-- I kinda think this info should be closer to the top, so folks know what data AnimatedAlign needs -->
-Note: X and Y values range from -1.0 to 1.0. `Alignment(-1.0, -1.0)` 
-represents the top left of the screen and `Alignment(1.0, 1.0)` represents 
-the bottom right of the screen.
-
 When you run the app now, the rectangle should move around the screen. 
 
 <details>
@@ -64,4 +62,4 @@ When you run the app now, the rectangle should move around the screen.
 ![Using AnimatedAlign](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen03.gif?raw=true)
 </details>
 
-<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=555&t=pageview&ec=repo&ea=open&dp=flutter_animations_workshop/step-04&dt=flutter_animations_workshop/step-04&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/step_04/instructions.md&dt=/step-04&tid=UA-226934227-1" style="width: 1px; height: 1px"/>

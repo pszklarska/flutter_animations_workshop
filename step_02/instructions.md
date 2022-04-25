@@ -73,11 +73,10 @@ After those changes, when you run the app you should see a
 FloatingActionButton in the bottom right corner. Each time you tap on it, a 
 new random rectangle is shown.
 
-<!-- this is a great way to verify that the workshop taker has completed the step successfully without needing to toggle the solution and losing their code! Great idea. -->
 <details>
   <summary>Click to see the result!</summary>
 
 ![Change the state](https://github.com/pszklarska/flutter_animations_workshop/raw/main/assets/screen01.gif?raw=true)
 </details>
 
-<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=555&t=pageview&ec=repo&ea=open&dp=flutter_animations_workshop/step-02&dt=flutter_animations_workshop/step-02&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/step_02/instructions.md&dt=/step-02&tid=UA-226934227-1" style="width: 1px; height: 1px"/>

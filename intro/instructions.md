@@ -44,11 +44,10 @@ You'll create that animation using the following widgets:
 
 ## Start
 
-<!-- I love how simple the starting app is! Great starting point for beginners. -->
 You're going to start with a simple application that contains a blue Container
 in the centre. Let's click the **Run** in the top right corner to see how it
 looks now.
 
 If you are ready, go to the next step!
 
-<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=555&t=pageview&ec=repo&ea=open&dp=flutter_animations_workshop/intro&dt=flutter_animations_workshop/intro&tid=UA-226900214-1" style="width: 1px; height: 1px"/>
+<img alt="Google Analytics" src="https://www.google-analytics.com/collect?v=1&cid=1&t=pageview&ec=workshop&ea=open&dp=blob/main/intro/instructions.md&dt=/intro&tid=UA-226934227-1" style="width: 1px; height: 1px"/>
