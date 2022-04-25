@@ -1,4 +1,4 @@
-# Animate look using AnimatedContainer
+# Animate the box using AnimatedContainer
 
 Now is the time to finally create some animations!
 

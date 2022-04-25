@@ -13,8 +13,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // TODO(3): Create new Random instance
   // TODO(1): Add _width, _height, _color
+  // TODO(3): Create new Random instance
 
   @override
   Widget build(BuildContext context) {

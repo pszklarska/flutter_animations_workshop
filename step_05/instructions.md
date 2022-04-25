@@ -9,7 +9,7 @@ variable `_opacity` (line #25)
 ```dart
 class _MyAppState extends State<MyApp> {
   ...
-  double _opacity = 0.0;
+  double _opacity = 1.0;
   ...
 }
 ```
